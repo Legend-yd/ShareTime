@@ -1,0 +1,99 @@
+div.main {
+    width: 100%;
+    height: auto;
+    margin: 50px 0 50px 0;
+}
+/*接单选项*/
+div.get_item{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    display: flex;
+}
+/*接单*/
+div.get{
+    width: 40%;
+    height: 300px;
+    background-color: #f1e8ef;
+    border-radius: 100px;
+}
+/*发单*/
+div.put{
+    margin-left: 200px;
+    width: 40%;
+    height: 300px;
+    background-color: #f1e8ef;
+    border-radius: 100px;
+
+}
+.get_item a{
+    display: block;
+    font-family: 宋体,serif;
+    font-size: 50px;
+    color: #30e2e1;
+    border: #1d9ef5 solid 2px;
+    border-radius: 10px;
+    padding: 60px 10px 40px 10px;
+    width: 200px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.get_item a:hover,.get_item a:active{
+    background-color: #e1d8df;
+}
+
+/*推荐内容*/
+.main div.index_recommend{
+    width: 80%;
+    height: auto;
+    margin: 60px 10%;
+    background-color: #f8eef6;
+    padding: 30px 0 0 0;
+    border-radius: 5px;
+}
+.line{
+    width: 94%;
+    height: 1px;
+    border-bottom: #95aaaa solid 1px;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+
+a.recommend_title{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-family: Consolas,serif;
+    margin: 20px 0 20px 20px;
+    border: #95aaaa solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.more_info{
+    text-align: center;
+    padding: 20px 20px;
+}
+.more_info a{
+    text-decoration: none;
+    color: #95aaaa;
+}
+.more_info a:hover{
+    color: #1d9ef5;
+}
+.index_recommend p{
+    padding-left: 20px;
+}
+.recommend_time{
+    text-align: right;
+    padding-right: 20px;
+}
+.recommend_div:hover{
+    background-color: #eae0e8;
+}
+.recommend_div{
+    border-radius: 10px;
+    padding: 10px;
+}

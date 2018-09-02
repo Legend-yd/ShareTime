@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9e4;
+}
+
+/*标题栏*/
+table.guide {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #f4fdfa;
+    padding: 4% 0 4% 0;
+}
+table td{
+    text-align: center;
+}
+/*返回*/
+a.back {
+    font-size: 4em;
+    margin: 1% 0 1% 0;
+    text-decoration: none;
+    color: #020202;
+}
+
+a.back:hover {
+    color: #9d9d9d;
+}
+
+/*标题*/
+a.title {
+    font-size: 3em;
+    font-family: 楷体, serif;
+}
+
+/*logo*/
+img.guide_img {
+    width: 5em;
+    height: 5em;
+    border-radius: 3em;
+
+}
+
+/***********个人信息区域*************/
+div.title_info {
+    width: 100%;
+    display: flex;
+    background-color: #94c9fd;
+    margin-top: 3%;
+
+}
+
+/*个人头像*/
+img.person {
+    width: 12em;
+    height: 12em;
+    border-radius: 6em;
+    margin: 5% 0 5% 3%;
+}
+
+/*右边区域*/
+div.info_r {
+    width: 80%;
+    margin: 5% 0 5% 3%;
+}
+
+/*性别、等级*/
+div.info_in {
+    width: 100%;
+    display: flex;
+}
+
+p.name {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3em;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+a.sex {
+    height: 30%;
+    width: 5%;
+    margin: 3% 0 0 5%;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    background-color: #1bc4f3;
+}
+
+a.level {
+    width: 12%;
+    height: 10%;
+    font-size: 2em;
+    text-align: center;
+    margin: 3% 0 0 5%;
+    color: #ffffff;
+    background-color: #3747e7;
+}
+
+/*个性签名*/
+p.signature {
+    font-family: 楷体, serif;
+    font-size: 2em;
+    margin: 2% 0 0 10%;
+    color: #191a1c;
+}
+
+div.info_div {
+    width: 100%;
+    background-color: #f4fdfa;
+    margin-top: 2%;
+}
+
+/************基本信息区域***************/
+div.info_div div {
+    width: 100%;
+    display: flex;
+    background-color: #e9e9e9;
+    opacity: 0.8;
+    border: #f4fdfa solid 1px;
+}
+
+/*图片*/
+div.info_div img {
+    width: 5%;
+    height: 5%;
+    margin: 6% 2% 1% 2%;
+}
+
+/*手机图片*/
+div.info_div img.phone {
+    width: 3%;
+    height: 4%;
+    margin: 5% 2% 1% 3%;
+}
+
+/*文字*/
+div.info_div a {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding: 5% 0 5% 5%;
+    color: #0f0f0f;
+    font-size: 2.7em;
+}
+
+/************操作区域**************/
+div.operation {
+    width: 100%;
+    margin-top: 2%;
+    background-color: #e9e9e9;
+}
+
+div.operation table {
+    width: 100%;
+    font-size: 2em;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+div.operation table td {
+    width: 30%;
+    padding: 2% 0 3% 0;
+    /*display: flex; !*水平布局*!*/
+    text-align: center;
+    align-content: center;
+    border: #9d9d9d solid 1px;
+}
+div.operation table td img{
+    width: 25%;
+    margin:5% auto 5% auto;
+    display: block;
+}

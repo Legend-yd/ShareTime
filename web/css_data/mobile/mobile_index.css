@@ -1,0 +1,224 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.index_title {
+    width: 100%;
+    background-color: #040a34;
+    display: flex;
+    padding: 2em 0 2em 0;
+}
+
+/*logo*/
+.title_logo {
+    width: 20%;
+    text-align: center;
+    padding: 1.4em 0 0 0;
+}
+
+.title_guide {
+    width: 60%;
+
+}
+
+/*导航栏*/
+ul.guide_ul {
+    width: 100%;
+    display: block;
+}
+
+ul.guide_ul li {
+    display: inline-block;
+    font-size: 2.25em;
+    margin: 0.15em;
+}
+ul.guide_ul li:active{
+    border-bottom: #1d9ef5 solid 1px;
+}
+ul.guide_ul li a:active {
+    color: #f8eef6;
+}
+
+ul.guide_ul li a{
+    text-decoration: none;
+    color: #c0cdc3;
+}
+
+li.about_us {
+    display: block;
+}
+
+li.about_us:hover ul.about_us {
+    display: block;
+}
+
+ul.about_us {
+    display: none;
+    position: absolute;
+    background-color: #040a34;
+    padding: 0.6em;
+    border-radius: 15px;
+}
+
+ul.about_us li {
+    display: block;
+    position: relative;
+    font-size: 1em;
+    padding: 0.3em;
+    border-radius: 15px;
+}
+
+ul.about_us li:hover {
+    color: #f8eef6;
+    background-color: #1bc4f3;
+}
+
+/*登录*/
+.title_login {
+    width: 15%;
+    display: block;
+    justify-content: space-between;
+    padding: 2.4% 2.5% 3% 2.5%;
+}
+
+.title_login a {
+    text-decoration: none;
+    color: #c0cdc3;
+    border: #c0cdc3 solid 1px;
+    border-radius: 20px;
+    font-size: 1.6em;
+    padding: 0.2em 0.3em 0 0.3em;
+}
+
+.title_login a:active {
+    background-color: #0a0f57
+}
+/*个人中心*/
+.title_personal{
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.7em;
+    color:#c0cdc3;
+    padding: 0;
+    margin-left: 2.5%;
+    display: none;
+}
+.title_personal:hover ul{
+    display: block;
+}
+
+/*头像*/
+img.personal{
+    padding: 0;
+    width: 3em;
+    height: 3em;
+    border-radius: 2em;
+}
+
+/*下拉框*/
+.title_personal ul{
+    width:15%;
+    display: none;
+    position: absolute;
+    background-color: #040a34;
+    padding:0.6em;
+    border-radius: 15px;
+}
+.title_personal ul li{
+    display: block;
+    padding: 0.1em 0.6em 0.1em 0.6em ;
+}
+.title_personal ul li:hover{
+    background-color: #9ba0a8;
+    border-radius: 0.3em;
+}
+.title_personal ul li a{
+    text-decoration: none;
+    color: #c0cdc3;
+}
+
+/*中间*/
+.index_main{
+    width: 100%;
+}
+.indexRecommendLogo {
+    width: 100%;
+    background-color: #e9f1f0;
+    display: flex;
+    padding: 5% 0 5% 0;
+}
+.get_div{
+    width: 50%;
+    text-align: center;
+}
+
+img.get_recommend {
+    width: 50%;
+    height: 90%;
+    padding: 1em;
+}
+img.get_recommend:active{
+    background-color: #f8eef6;
+}
+.put_div{
+    width: 50%;
+    text-align: center;
+
+}
+img.put_recommend {
+    width: 50%;
+    height: 90%;
+    padding: 1em;
+}
+img.put_recommend:active{
+    background-color: #f8eef6;
+}
+
+.recommend_div{
+    width: 100%;
+    padding: 1em 0 1em 0;
+}
+.single_recommend{
+    width: 90%;
+    background-color: #d0d7d6;
+    border-radius: 10px;
+    padding: 1em 0 1em 0;
+    margin: 2% 0 2% 5%;
+}
+.single_recommend p{
+   width: 100%;
+    margin: 1em;
+
+}
+/*横线*/
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #1d9ef5;
+}
+/*更多悬赏*/
+.moreInfo{
+    text-align: center;
+    margin-top: 1em;
+}
+.moreInfo a{
+    text-decoration: none;
+    color: #2523e4;
+}
+.moreInfo a:active{
+    background-color: #19b8b0b6;
+}
+/*底部*/
+.index_bottom {
+    width: 100%;
+    background-color: #040a34;
+}
+
+.index_bottom p {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+}

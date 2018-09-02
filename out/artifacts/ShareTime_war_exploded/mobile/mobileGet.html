@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>接单</title>
+</head>
+<body>
+<button onclick="care()">点击啊</button>
+<div id="showDiv">asdasd</div>
+<script>
+    var xmlhttp;
+    var m = document.getElementById("showDiv");
+    function care() {
+        if(window.XMLHttpRequest){
+            xmlhttp = new XMLHttpRequest();
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState===4 && xmlhttp.status===200)
+            {
+                m.innerHTML=xmlhttp.responseText;
+            }
+        };
+        xmlhttp.open("post","meiyou.txt",true);
+        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");//添加request头
+        xmlhttp.send("hanemaklfjdaklsjfaslkf");
+
+    }
+</script>
+</body>
+</html>

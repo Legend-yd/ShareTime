@@ -1,0 +1,172 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #b5d4f6;
+}
+
+.LoginMaxDiv {
+    width: 100%;
+}
+
+/*标题*/
+.title_div {
+    width: 100%;
+    display: flex;
+}
+
+.title_div div {
+    width: 100%;
+    display: flex;
+}
+
+.title_div a {
+    width: 10%;
+    font-size: 4.5em;
+    color: #9d9d9d;
+    padding: 3% 2% 2% 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title_div a:active {
+    color: #0f0f0f;
+}
+
+.title_div p {
+    width: 80%;
+    font-size: 3em;
+    text-align: center;
+    font-family: 楷体, serif;
+}
+
+/*横线*/
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #9d9d9d;
+}
+
+/*图标*/
+.logo_div {
+    width: 80%;
+    margin: 20% 0 0 10%;
+    text-align: center;
+}
+
+img.imageLogo {
+    width: 100%;
+}
+
+/*输入区域*/
+.input_div {
+    width: 100%;
+}
+
+/*输入框*/
+.LoginMaxDiv form {
+    width: 100%;
+    display: block;
+}
+
+input.text {
+    width: 73%;
+    display: block;
+    opacity: 0.8;
+    font-size: 3em;
+    padding: 0.7em;
+    color: #000000;
+    margin: 2% 0 0 10%;
+    border-radius: 10px;
+    font-family: 楷体, serif;
+    background-color: #bed8df;
+}
+
+/*checkbox*/
+.myBoxDiv {
+    width: 100%;
+    font-size: 2.5em;
+    font-family: 楷体, serif;
+    margin-top: 5%;
+}
+
+input.myCheckBox {
+    zoom: 400%;
+    margin-left: 10%;
+}
+
+a.check_text {
+    font-size: 1.2em;
+}
+
+/*错误警告*/
+a.input_wrong {
+    font-size: 2em;
+    display: none;
+    color: #fa2b15;
+    margin: 4% 0 0 13%;
+}
+
+/*验证码区域*/
+.identifyCode {
+    width: 100%;
+    display: none;
+}
+
+.identifyCode input {
+    width: 30%;
+}
+
+/*图片*/
+img.identifyImage {
+    width: 22%;
+    height: 15%;
+    margin: 2em 0 0 2em;
+}
+
+/*看不清*/
+.identifyCode a {
+    font-size: 2.4em;
+    margin: 1.7em 0 0 1em;
+}
+
+.identifyCode a:active {
+    color: #1d9ef5;
+}
+
+/*登陆按钮*/
+button.btn {
+    width: 80%;
+    font-size: 3em;
+    color: #f8eef6;
+    text-align: center;
+    padding: 3% 0 3% 0;
+    margin: 4% 0 0 10%;
+    border-radius: 15px;
+    display: block;
+    font-family: 楷体, serif;
+    background-color: #1d9ef5;
+}
+
+button.btn:active {
+    background-color: #1bc4f3;
+}
+
+/*忘记密码和前往注册*/
+div.label {
+    width: 80%;
+    margin: 5% 0 10% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.label {
+    color: #373eab;
+    font-size: 2.4em;
+    font-family: 楷体, serif;
+    text-decoration: none;
+}
+
+a.label:active {
+    color: #4e56ee;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../css_data/mobile/mobilelogin.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/mobile/myCookie.js"></script>
+    <script src="../js/mobile/mobileLogin.js"></script>
+</head>
+<body>
+<div class="title_div">
+    <div>
+        <a class="back" href="mobileIndex.html"><</a>
+        <p>帮帮堂登录</p>
+    </div>
+</div>
+<div class="line"></div>
+<div class="LoginMaxDiv">
+    <div class="logo_div">
+        <img class="imageLogo" src="../images/logo.png">
+    </div>
+    <div class="input_div">
+        <input class="text" id="name" type="tel" maxlength="11" placeholder="用户名">
+        <input class="text" id="pwd" type="password" placeholder="密码">
+        <div class="myBoxDiv">
+            <input class="myCheckBox" type="checkbox">
+            <a class="check_text">记住密码</a>
+        </div>
+        <a class="input_wrong" id="input_wrong"></a>
+        <div class="identifyCode">
+            <input class="text" id="identifyInput" type="text" placeholder="请输入验证码">
+            <img class="identifyImage" id="identifyImage" alt="验证码" src="/ImageServlet">
+            <a id="cantSee">看不清</a>
+        </div>
+        <button class="btn">登录</button>
+        <div class="label">
+            <a class="label" href="mobileForget.html">忘记密码</a>
+            <a class="label" href="mobileCreat.html">注册新账号</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #050326;
+}
+
+.title div {
+
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.title_left {
+    width: 20%;
+}
+
+.logo {
+    width: 70%;
+    height: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.title_middle {
+    width: 60%;
+}
+
+ul.guide_ul {
+    padding-top: 20px;
+    margin-left: 20%;
+}
+
+ul.guide_ul li {
+    display: inline-block;
+}
+
+ul.guide_ul li a {
+    color: #c3c3a7;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+ul.guide_ul li:hover a{
+    color: #f8eef6;
+    border-bottom: #1d9ef5 solid 2px;
+}
+ul.guide_ul li:hover ul.about_us a{
+    border: none;
+}
+
+li.about_us:hover ul.about_us{
+    display: block;
+}
+
+ul.about_us{
+    display: none;
+    position: absolute;
+    background-color:#040a34;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+ul.about_us li{
+    display: block;
+    position: relative;
+    padding: 5px 0 5px 0;
+}
+ul.about_us li:hover{
+    background-color: #61c6d1;
+}
+
+/*************登录***************/
+.title_right {
+    width: 20%;
+
+}
+
+ul.login{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+ul.login li {
+    display: inline;
+    border: #c3c3a7 solid 1px;
+    border-radius: 17px;
+    padding: 1px 10px 5px 10px ;
+    margin-left: 10px;
+}
+
+ul.login li:hover {
+    border: #f8eef6 solid 1px;
+
+}
+
+ ul.login li a {
+    text-decoration: none;
+    padding: 0;
+    color: #c3c3a7;
+    font-size: 13px;
+    font-family: 宋体,serif;
+}
+
+ul.login li a:hover {
+    color: #f8eef6;
+}

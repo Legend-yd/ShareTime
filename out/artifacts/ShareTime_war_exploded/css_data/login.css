@@ -1,0 +1,126 @@
+/*顶部*/
+.top_title {
+    background-color: #050521;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 0 5px 0; /*上右下左*/
+}
+
+.top_title div {
+    display: inline-block;
+}
+
+.top_title ul {
+    display: inline;
+}
+
+.top_title ul li {
+    display: inline;
+}
+
+.top_title ul li a {
+    color: #c0cdc3;
+    font-size: 20px;
+    font-family: 宋体, serif;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.top_title ul li a:hover {
+    color: white;
+}
+
+.logo {
+    width: 170px;
+    height: 80px;
+    padding-top: 15px;
+    margin-left: 150px;
+    overflow: auto;
+}
+
+.right_title {
+    float: right;
+    padding: 40px 150px 0 0;
+}
+
+/****************主****************/
+.main {
+    background-color: #050521;
+    width: 100%;
+    height: 500px;
+}
+
+.login_div {
+    height: 280px;
+    width: 280px;
+    background-color: #040a34;
+    padding: 40px 20px 10px 20px;
+    margin: 60px 80px 0 0;
+    border-radius: 15px;
+    float: right;
+}
+
+.input_text {
+    display: block;
+    padding: 8px;
+    margin: 18px 18px;
+    width: 80%;
+    border-radius: 5px;
+    color: #dfecf3;
+    background-color: #040a34;
+
+}
+
+.identifyCode {
+
+}
+
+.input_btn {
+    display: block;
+    width: 88%;
+    padding: 7px;
+    margin: 15px 0 8px 15px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #61c6d1;
+}
+
+.input_btn:hover {
+    background-color: #72e8f5;
+}
+
+.input_checkbox {
+    margin-left: 15px;
+}
+
+.login_div a {
+    color: #1d7b9e;
+    font-family: 宋体, serif;
+    font-size: 14px;
+}
+
+a.forget_pwd {
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+a.forget_pwd:hover {
+    color: aquamarine;
+}
+
+a.label1 {
+    margin: 20px 0 0 50px;
+    display: inline-block;
+}
+
+.login_div a.create_name {
+    color: #1bc4f3;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.login_div a.create_name:hover {
+    color: #82e5f3;
+}

@@ -1,0 +1,68 @@
+/********底部css样式**********/
+.bottom {
+    background-color: #040a34;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.bottom_last{
+    display: flex;
+}
+
+.bottom_left {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.bottom_left ul {
+    display: block;
+}
+
+.bottom_left ul li {
+    display: inline;
+    color: #c0cdc3;
+    font-size: 13px;
+}
+
+.bottom_left ul li a {
+    text-decoration: none;
+    color: #95aaaa;
+}
+
+.bottom_left ul li a:hover {
+    color: #f8eef6;
+}
+
+/*竖线*/
+div.vertical_string{
+    height: 150px;
+    width: 1px;
+    border-right: #f8eef6 solid 1px;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.bottom_right {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.bottom_right ul li {
+    display: block;
+    margin: 7px;
+    color: #f8eef6;
+}
+
+.bottom_div {
+    background-color: #050521;
+
+}
+
+.bottom_div p {
+    color: #95aaaa;
+    font-family: 新宋体, serif;
+    font-size: 13px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+

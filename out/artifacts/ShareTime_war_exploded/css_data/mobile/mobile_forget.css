@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f3f0;
+}
+
+div.body_div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*标题*/
+p.title_p {
+    text-align: center;
+    color: #0f0f0f;
+    width: 100%;
+    margin-top: 0;
+    padding: 10% 0 10% 0;
+    font-size: 4em;
+    font-family: 楷体, serif;
+    background-color: #f6efe6;
+}
+
+/*导航条*/
+ul.guide_ul {
+    display: block;
+    text-align: center;
+    background-color: #dad8d9;
+    padding: 3% 3%;
+}
+
+ul.guide_ul li {
+    display: inline;
+    margin: 0 3% 0 3%;
+}
+
+ul.guide_ul a {
+    font-size: 2.8em;
+    color: #9d9d9d;
+}
+
+/*进行到哪一步*/
+#select_first {
+    color: #63c5fb;
+}
+
+/*底部横线*/
+#bottomLine {
+    width: 6em;
+    height: 0.5em;
+    margin-top: 2%;
+    left: 15%;
+    position: absolute;
+    background-color: #63c5fb;
+}
+
+/*输入框*/
+input {
+    opacity: 0.5;
+    padding: 3%;
+    font-size: 3em;
+    margin: 2% 0 0 10%;
+    border-radius: 15px;
+    background-color: #d2f0f7;
+    border: #9d9d9d solid 3px;
+    font-family: 楷体, serif;
+
+}
+
+/*账号区域*/
+.nameDiv {
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+}
+
+input.user_num {
+    width: 75%;
+    margin: 10% 0 0 10%;
+}
+
+.nameDiv p {
+    display: none;
+    color: #fb310e;
+    font-size: 2.4em;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+/*验证码区域*/
+.checkDiv {
+    width: 100%;
+    position: relative;
+    z-index: 8;
+    left: 100%;
+    opacity: 0;
+}
+
+.checkNumberDiv {
+    width: 100%;
+    margin-top: 10%;
+}
+
+input.checkNumber {
+    width: 40%;
+}
+
+.checkDiv p {
+    display: none;
+    color: #fb310e;
+    font-size: 2.4em;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+
+button.btn {
+    width: 30%;
+    font-size: 3em;
+    padding: 2%;
+    margin-left: 5%;
+    font-family: 楷体, serif;
+    border-radius: 15px;
+    background-color: #f8eef6;
+}
+
+button.btn:active {
+    background-color: #d0d8d7;
+}
+
+button.check_submit {
+    width: 80%;
+    margin: 10% 0 0 10%;
+    font-size: 2.8em;
+    border-radius: 20px;
+    padding: 2% 0 2% 0;
+    color: #f8eef6;
+    background-color: #1bc4f3;
+}
+
+button.check_submit:active {
+    background-color: #1d9ef5;
+}
+
+/*密码区域*/
+.pwd_div {
+    width: 100%;
+    margin-top: 7%;
+    left: 100%;
+    position: relative;
+    z-index: 9;
+    opacity: 0;
+}
+
+input.pwd {
+    width: 75%;
+    margin-top: 4%;
+}
+
+/*安全指数*/
+.pwd_level {
+    width: 100%;
+    display: none;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.pwd_level p {
+    font-size: 2em;
+    width: auto;
+    margin: 4% 0 0 2%;
+    color: #8c8c8c;
+}
+
+p.pwd_level {
+    display: block;
+    margin: 4% 0 0 10%;
+}
+
+.pwd_level a {
+    width: 5em;
+    height: 2em;
+    margin: 4% 0 0 2%;
+    background-color: #fa2b15;
+
+}
+
+/*两次密码不一致警告*/
+p.pwd_warn {
+    font-size: 2em;
+    color: red;
+    margin: 5% 0 0 15%;
+    display: none;
+}
+
+/*完成*/
+.succeed {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    left: 100%;
+    opacity: 0;
+}
+
+.succeed p {
+    font-size: 4em;
+}
+
+.succeed a {
+    text-decoration: none;
+    color: #1bc4f3;
+    font-size: 3em;
+}

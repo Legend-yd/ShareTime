@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="../css_data/mobile/mobilePerson.css">
+    <script src="../js/mobile/myCookie.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/mobile/mobile_personal.js"></script>
+</head>
+<body>
+<table class="guide">
+    <tr>
+        <td  colspan="1">
+            <a class="back" href="mobileIndex.html"><</a>
+        </td>
+        <td  colspan="8">
+            <a class="title">帮帮堂个人中心</a>
+        </td>
+        <td  colspan="1">
+            <img class="guide_img" id="guide_img" onclick="location.reload()" src="../images/person.png">
+        </td>
+    </tr>
+</table>
+<div class="title_info">
+    <img class="person" src="../images/person.png" id="image">
+    <div class="info_r">
+        <div class="info_in">
+            <p class="name" id="petName"> ---</p>
+            <a class="sex" id="sex"></a>
+            <a class="level" id="level">Lv0</a>
+        </div>
+        <p class="signature" id="personalSignature">个性签名</p>
+    </div>
+</div>
+<div class="info_div">
+    <div>
+        <img src="../images/personal/info.png">
+        <a>信息：</a>
+        <a id="info"></a>
+    </div>
+    <div>
+        <img class="phone" src="../images/personal/phone.png">
+        <a>手机：</a>
+        <a id="phoneNum"></a>
+    </div>
+    <div>
+        <img src="../images/personal/truth.png">
+        <a>信用积分：</a>
+        <a id="creditScore"></a>
+    </div>
+    <div>
+        <img src="../images/personal/school.png">
+        <a>学校：</a>
+        <a id="school"></a>
+    </div>
+    <div>
+        <img src="../images/personal/department.png">
+        <a>专业：</a>
+        <a id="department"></a>
+    </div>
+</div>
+<div class="operation">
+    <table cellspacing="0">
+        <tr>
+            <td id="changeInfo">
+                <img src="../images/personal/truth.png">
+                <a>修改信息</a>
+            </td>
+            <td>
+                <img src="../images/personal/truth.png">
+                <a>我的钱包</a>
+            </td>
+            <td>
+                <img src="../images/personal/truth.png">
+                <a>消息</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../images/personal/truth.png">
+                <a>我的订单</a>
+            </td>
+            <td id="quit">
+                <img src="../images/personal/truth.png">
+                <a>退出</a>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

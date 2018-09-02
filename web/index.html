@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css_data/index_title.css">
+    <link rel="stylesheet type=text/css" href="css_data/index_bottom.css">
+    <link rel="stylesheet type=text/css" href="css_data/index_main.css">
+    <script src="js/judge.js"></script>
+</head>
+<body style="background-color: #ebf3f1; margin: 0;padding: 0;">
+<div class="title">
+    <div class="title_left">
+        <img class="logo" src="images/logo.png" >
+    </div>
+    <div class="title_middle">
+        <ul class="guide_ul">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="index.html">讨论区</a></li>
+            <li><a href="introduction.html">服务介绍</a></li>
+            <li class="about_us"><a href="#">关于我们</a>
+                <ul class="about_us">
+                    <li><a href="#">公司介绍</a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <div><a style="color: white;">定位</a></div>
+    <div class="title_right">
+        <ul class="login">
+            <li><a href="login.html">登录</a></li>
+            <li><a href="create.html">注册</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <div class="get_item">
+        <div class="get">
+            <a href="get.html">我要接单</a>
+        </div>
+        <div class="put">
+            <a href="put.html">我要发单</a>
+        </div>
+    </div>
+    <div class="index_recommend">
+
+        <div><a class="recommend_title">悬赏令:</a></div>
+        <div class="line"></div>
+        <div class="recommend_div" onclick="more_info()">
+            <p>微教育类小程序开发</p>
+            <p>项目需求详情：</p>
+            <p>1. 标题：【微教育类小程序开发】
+                2. 行业：教育
+                ...</p>
+            <p class="recommend_time" id="recommend_time"></p>
+        </div>
+        <div class="line"></div>
+        <div class="recommend_div" onclick="more_info()">
+            <p>微教育类小程序开发</p>
+            <p>项目需求详情：</p>
+            <p>1. 标题：【微教育类小程序开发】
+                2. 行业：教育
+                ...</p>
+            <p class="recommend_time" id="recommend_time1"></p>
+        </div>
+        <div class="line"></div>
+        <div class="recommend_div" onclick="more_info()">
+            <p>微教育类小程序开发</p>
+            <p>项目需求详情：</p>
+            <p>1. 标题：【微教育类小程序开发】
+                2. 行业：教育
+                ...</p>
+            <p class="recommend_time" id="recommend_time2"></p>
+        </div>
+        <div class="line"></div>
+        <div class="more_info"><a href="get.html">更多悬赏...</a></div>
+        <script>
+            function tiaozhuan{
+                window.location.href="login.html";
+            }
+            var myDate = new Date();
+            document.getElementById("recommend_time").innerHTML = myDate.toLocaleDateString() + "  " + myDate.toLocaleTimeString();
+            document.getElementById("recommend_time1").innerHTML = myDate.toLocaleDateString() + "  " + myDate.toLocaleTimeString();
+            document.getElementById("recommend_time2").innerHTML = myDate.toLocaleDateString() + "  " + myDate.toLocaleTimeString();
+
+        </script>
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottom_last">
+        <div class="bottom_left">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">服务介绍</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">意见反馈</a></li>
+            </ul>
+        </div>
+        <div class="vertical_string"></div>
+        <div class="bottom_right">
+            <ul>
+                <li><a>邮箱：supernover.163.com</a></li>
+                <li><a>电话：88888888</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom_div">
+        <p>帮帮堂 郑州大学信息工程学院</p>
+    </div>
+</div>
+</body>
+</html>
